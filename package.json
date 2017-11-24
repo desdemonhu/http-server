@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "start": "node server.js"
+    "start": "nodemon ./server.js"
   },
   "repository": {
     "type": "git",
@@ -23,9 +23,13 @@
   },
   "homepage": "https://github.com/desdemonhu/http-server#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "expect": "^21.2.1",
     "express": "^4.16.2",
     "mocha": "^4.0.1",
     "superagent": "^3.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
   }
 }
