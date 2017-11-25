@@ -27,7 +27,8 @@
     "expect": "^21.2.1",
     "express": "^4.16.2",
     "mocha": "^4.0.1",
-    "superagent": "^3.8.0"
+    "superagent": "^3.8.0",
+    "uuid": "^3.1.0"
   },
   "devDependencies": {
     "nodemon": "^1.12.1"
