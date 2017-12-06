@@ -23,10 +23,12 @@
   },
   "homepage": "https://github.com/desdemonhu/http-server#readme",
   "dependencies": {
+    "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
     "expect": "^21.2.1",
     "express": "^4.16.2",
     "mocha": "^4.0.1",
+    "mongodb": "^3.0.0-rc0",
     "superagent": "^3.8.0",
     "uuid": "^3.1.0"
   },
